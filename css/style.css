@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Gotham Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Medium'), url('../fonts/gothammedium.ttf');
+} 
+@font-face {
+    font-family: 'Gotham Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Bold'), url('../fonts/gothambold.ttf');
+} 
+html {
+    font-family: "Gotham Medium";
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body, html {
+    height: 100%;
+}
+body {
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-fluid {
+    max-width: 87%;
+}
+.jumbotron {
+    background-color: unset;
+}
+
+
+#caption{
+    /*height: 20px;*/
+    color: #141414;
+    font-family: "Gotham Medium";
+    font-size: 0.82em;
+    font-weight: 500;
+    padding-top: 1em;
+}
+
+
+input { height: 60px;
+    font-family: "Gotham Medium";
+    width:100%;
+}
+
+button { 
+    height: 60px;
+    font-family: "Gotham Medium";
+    width:100%;
+}
+
+.form-control {
+    height:60px;
+    width:100%;
+    font-size: 1rem;
+}
+
+.form-inline {
+    width:100%;
+}
+
+a {
+    color: #141414;
+}
+
+.btn {
+    color: #ffffff;
+    font-family: "Gotham Bold";
+    font-size: .659em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.18px;
+}
+
+.btn-primary {
+    background-color: #00aaff;
+    border-color: #00aaff;
+}
+
+#telegram{
+    width: 73px;
+    height: 17px;
+    color: #141414;
+    font-family: "Gotham Medium";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.circle-icon {
+    background: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 20px;
+    border: 2px solid #ebecf2;
+}
+
+#telegram-img-container{
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ebecf2;
+    background-color: #ffffff;
+}
+
+#telegram-img{
+    width: 29px;
+    height: 26px;
+}
+
+.telegram-txt{
+    padding-left: 2em;
+    text-align: center;
+    line-height: 4em;
+    vertical-align: middle;
+    font-family: "Gotham Medium";
+    font-size: 15px;
+    font-weight: 500;    
+}
+
+#form_container{
+    width: 100%;
+}
+
+form{
+    padding-top: 2.9em;
+    padding-bottom: 2.5em;
+}
+
+input[type="email"]::-webkit-input-placeholder { 
+    color: #141414;
+    opacity: 0.3;
+}
+
+input[type="email"]::-moz-placeholder { 
+    color: #141414;
+}
+
+input[type="email"]:-ms-input-placeholder {
+    color: #141414;
+}
+
+input[type="email"]:-moz-placeholder { 
+    color: #141414;
+}
+
+@media (min-width: 768px){
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, 
+    .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, 
+    .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10,
+    .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2,.col-md-3, 
+    .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, 
+    .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, 
+    .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, 
+    .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, 
+    .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, 
+    .col-lg-auto, .col-xl-1, .col-xl-2, 
+    .col-xl-3, .col-xl-4, .col-xl-5, 
+    .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, 
+    .col-xl-12, .col-xl, .col-xl-auto {
+        padding-left: 5px;padding-right: 5px;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 424px) {
+    #form_container{max-width: 328px}
+    #caption{font-size: 0.94em;}
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    #form_container{max-width: 376px;}
+    #caption{font-size: 1.07em;}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .img-fluid {
+        max-width: 67%;
+    }
+    #caption{font-size:0.98em;}
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .img-fluid {
+        max-width: 66%;
+    }
+    #caption{font-size:0.98em;}
+}
+
+@media (min-width: 1080px)  {
+    .img-fluid {
+        max-width: 67.2%;
+    }
+    #caption{font-size:1.2em;}
+    form {
+        padding-top: 3.3em;
+    }
+}
