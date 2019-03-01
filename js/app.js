@@ -11,10 +11,3 @@ $(window).on('load', function () {
         });
     });
 });
-
-
-
-
-
-
-

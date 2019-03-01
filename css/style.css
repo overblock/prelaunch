@@ -31,7 +31,6 @@ body {
     background-color: unset;
 }
 
-
 #caption{
     /*height: 20px;*/
     color: #141414;
@@ -41,6 +40,13 @@ body {
     padding-top: 1em;
 }
 
+#caption strong {
+    font-size: 1.4em;
+}
+
+#sub {
+    font-size: 1em;
+}
 
 input { height: 60px;
     font-family: "Gotham Medium";
@@ -145,6 +151,23 @@ input[type="email"]:-ms-input-placeholder {
 }
 
 input[type="email"]:-moz-placeholder { 
+    color: #141414;
+}
+
+input[type="text"]::-webkit-input-placeholder { 
+    color: #141414;
+    opacity: 0.3;
+}
+
+input[type="text"]::-moz-placeholder { 
+    color: #141414;
+}
+
+input[type="text"]:-ms-input-placeholder {
+    color: #141414;
+}
+
+input[type="text"]:-moz-placeholder { 
     color: #141414;
 }
 
