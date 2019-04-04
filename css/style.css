@@ -3,12 +3,14 @@
     font-style: normal;
     font-weight: normal;
     src: local('Gotham Medium'), url('../fonts/gothammedium.ttf');
+    font-display: swap;
 } 
 @font-face {
     font-family: 'Gotham Bold';
     font-style: normal;
     font-weight: normal;
     src: local('Gotham Bold'), url('../fonts/gothambold.ttf');
+    font-display: swap;    
 } 
 html {
     font-family: "Gotham Medium";
